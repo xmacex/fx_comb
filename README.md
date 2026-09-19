@@ -6,6 +6,8 @@ Regarding negative decaytime
 
 > Time for the echoes to decay by 60 decibels. If this time is negative then the feedback coefficient will be negative, thus emphasizing only odd harmonics at an octave lower.
 
+A chained second, delayed comb filter is available for extra atonal phase destruction.
+
 # Requirements
 
 - norns
