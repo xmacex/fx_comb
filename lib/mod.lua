@@ -9,7 +9,7 @@ local FxComb = fx:new{
 }
 
 function FxComb:add_params()
-    params:add_group('fx_tanh', 'FX COMB', 1+5)
+    params:add_group('fx_comb', 'FX COMB', 1+5)
     FxComb:add_slot('fx_comb_slot', 'slot')
     FxComb:add_taper('fx_comb_delaytime', "delay", 'delaytime', 0.0001, 0.2, 0.05, 1.5, 's')
     FxComb:add_taper('fx_comb_decaytime', "decay", 'decaytime', -5.0, 5.0, 1.0, 1.3, 's')
